@@ -13,8 +13,6 @@ npm install react-js-navbar
 ## Usage
 
 ```javascript
-import Navbar from 'react-js-navbar'
-
 import React from 'react';
 import Navbar from 'react-js-navbar'
 
