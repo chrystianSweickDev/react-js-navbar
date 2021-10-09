@@ -47,28 +47,25 @@
         height: var(--navbar-height);
         min-height: var(--min-navbar-height);
         max-height: var(--max-navbar-height);
-        overflow: hidden;
-        z-index: 1;
         background-color: var(--bs-primary, var(--swe-color-primary));
-        padding: 15px;
+        margin: 0;
+        padding: 0;
     }
     .swe-hamburger-menu-logo-container {
         content: "";
-        width: 50%;
-        height: 100%;
-        border-radius: 5px;
-        text-align: center;
-        max-height: 40px;
-        background-color: var(--bs-light, var(--swe-color-light));
-        box-shadow: inset 0px 0px 5px 1px var(--bs-primary, var(--swe-color-primary));
+        width: 30%;
+        height: calc(100% - 10px);
+        margin-top: 5px;
+        text-align: left;
     }
     .swe-hamburger-menu-logo-container img {
+        border-radius: 5px;
         width: auto;
         max-width: 100%;
-        max-height: 40px;
+        max-height: 100%;
     }
     .swe-hamburger-menu-icon-container {
-        width: 50%;
+        width: 70%;
         text-align: right;
     }
     .swe-hamburger-menu-body {

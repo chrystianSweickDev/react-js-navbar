@@ -44,8 +44,7 @@ function HamburgerMenu({ logo, logoHref, links }) {
 
         return (
             <div className='swe-hamburger-menu-bar-wrap'>
-                <div className='swe-container'>
-                    <div style={{ display: "flex", padding: '15px' }}>
+                <div className='swe-container'  style={{ display: "flex", height:'100%' }}>
                         <div className='swe-hamburger-menu-logo-container'>
                             <a href={logoHref || '/#'}>
                                 {
@@ -61,7 +60,6 @@ function HamburgerMenu({ logo, logoHref, links }) {
                     </div>
                 </div>
 
-            </div>
         )
 
     }

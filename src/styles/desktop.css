@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
      :root {
         --navbar-height: 8vh;
-        --minx-navbar-height: 60px;
-        --max-navbar-height: 80px;
+        --min-navbar-height: 60px;
+        --max-navbar-height: 80px !important;
     }
     .swe-hamburger-menu-body,
     .swe-hamburger-menu-bar-wrap {
@@ -11,42 +11,46 @@
     .swe-navbar {
         content: '';
         max-width: 100%;
+        max-height: var(--max-navbar-height);
         height: var(--navbar-height);
         min-height: var(--min-navbar-height);
-        max-height: var(--max-navbar-height);
         background-color: var(--bs-primary, var(--swe-color-primary));
         margin: 0;
-        padding: 15px 5px;
         display: flex;
-    }
-    .swe-navbar * {
-        max-height: 50px !important;
     }
     .swe-navbar-over {
         background-color: transparent;
     }
     .swe-navbar-logo-container {
+        width: 18%;
         background-color: transparent;
-        border-radius: 5px;
-        padding: 0px 10px;
-        text-align: center;
-        box-shadow: inset 0px 0px 5px 1px var(--bs-primary, var(--swe-color-primary));
+        height: calc(100% - 30px);
+        margin-top: 15px;
+        text-align: left;
     }
     .swe-navbar-logo-container img {
         max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
     }
     .swe-navbar-wrap {
-        width: 100%;
-        padding: 15px;
+        height: 100%;
+        width: 82%;
+        margin: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: row-reverse;
     }
     .swe-navbar-wrap-link-box {
-        float: right;
+        display: flex;
     }
     .swe-navbar-wrap a {
         color: var(--bs-light, var(--swe-color-light));
         font-weight: 700;
-        padding: 0px 25px;
+        padding: 10px 25px;
         text-decoration: none;
+        margin: auto;
     }
     .swe-navbar-wrap a:hover {
         color: var(--bs-danger, var(--swe-color-danger));

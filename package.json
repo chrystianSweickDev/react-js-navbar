@@ -4,7 +4,8 @@
         "./dist"
     ],
     "repository": "git://github.com/chrystianSweickDev/react-js-navbar",
-    "version": "0.0.1",
+    "keywords": ["responsive", "react", "reactjs", "navbar"],
+    "version": "1.0.2",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "source": "src/index.jsx",
@@ -41,7 +42,7 @@
         ]
     },
     "peerDependencies": {
-        "react": "^16.13.1"
+        "react": "^16.13.1 || ^17.0.0"
     },
     "license": "MIT"
 }

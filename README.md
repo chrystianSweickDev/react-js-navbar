@@ -13,8 +13,6 @@ npm install responsive-react-js-navbar
 ## Usage
 
 ```javascript
-import Navbar from 'responsive-react-js-navbar'
-
 import React from 'react';
 import Navbar from 'responsive-react-js-navbar'
 
