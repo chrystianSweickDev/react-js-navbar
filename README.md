@@ -1,20 +1,22 @@
-# react-js-navbar
+# responsive-react-js-navbar
 
-react-js-navbar is a React component to build a simple and responsive navbar with hamburger menu to mobile screens 
+responsive-react-js-navbar is a React component to build a simple and responsive navbar with hamburger menu to mobile screens 
 
 ## Installation
 
-Use the npm package manager to install react-js-navbar.
+Use the npm package manager to install responsive-react-js-navbar.
 
 ```bash
-npm install react-js-navbar
+npm install responsive-react-js-navbar
 ```
 
 ## Usage
 
 ```javascript
+import Navbar from 'responsive-react-js-navbar'
+
 import React from 'react';
-import Navbar from 'react-js-navbar'
+import Navbar from 'responsive-react-js-navbar'
 
 function App(props) {
     const links = [{
