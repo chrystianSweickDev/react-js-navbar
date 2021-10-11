@@ -87,12 +87,11 @@
         padding: 30px 10px;
     }
     .swe-hamburger-menu-link-box {
-        background-color: var(--bs-danger);
+        background-color: var(--bs-danger, var(--swe-color-danger));
         border-radius: 20px;
         overflow: hidden;
         padding: 20px 0px;
         margin-top: 15px;
-        border: solid 2px var(--bs-light, var(--swe-color-light));
     }
     .swe-hamburger-menu-link-box a {
         color: var(--bs-light, var(--swe-color-light));
